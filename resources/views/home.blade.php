@@ -1,3 +1,5 @@
+@extends('dashboard')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" type="text/css" href="{!! asset('../assets/css/login.css') !!}">
@@ -149,4 +151,4 @@
     }
   </script>
 </html>
-
+@endsection
