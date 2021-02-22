@@ -21,7 +21,7 @@ use App\Http\Livewire\Absensi;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('welcome');
 });
 
 Auth::routes();
@@ -33,4 +33,8 @@ Route::get('/senbuds', Senbud::class);
 Route::get('/upds', Upd::class);
 Route::get('/siswas', Siswa::class);
 Route::get('/absensis', Absensi::class);
+Route::get('/register', Register::class);
+
+
+
 

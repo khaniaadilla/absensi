@@ -1,3 +1,4 @@
+@extends('home')
 <div>
     <div class="row">
         <div class="col-md-8">
@@ -5,6 +6,7 @@
                 <div class="card-body">
                     <h2 class="fonr-weigh-bold mb-3">Siswa</h2>
                     <table class="table table-bordered table-hovered table-striped">
+                     @extends('home')               
                         <thead>
                             <tr>
                                 <th>No</th>

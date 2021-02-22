@@ -1,5 +1,4 @@
 @extends('dashboard')
-@section('content')
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" type="text/css" href="{!! asset('../assets/css/login.css') !!}">
@@ -50,6 +49,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="siswas">Siswa</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                  </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('logout') }}"
            onclick="event.preventDefault();
@@ -151,4 +153,3 @@
     }
   </script>
 </html>
-@endsection

@@ -60,27 +60,27 @@ Coded by www.creative-tim.com
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="rayons">
               <i class="nc-icon nc-diamond"></i>
-              <p>Icons</p>
+              <p>Rayon</p>
             </a>
           </li>
           <li>
-            <a href="./map.html">
+            <a href="senbuds">
               <i class="nc-icon nc-pin-3"></i>
-              <p>Maps</p>
+              <p>Senbud</p>
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
+            <a href="upds">
               <i class="nc-icon nc-bell-55"></i>
-              <p>Notifications</p>
+              <p>UPD</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="siswas">
               <i class="nc-icon nc-single-02"></i>
-              <p>User Profile</p>
+              <p>Siswa</p>
             </a>
           </li>
           <li>
