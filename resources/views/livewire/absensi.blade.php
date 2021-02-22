@@ -53,7 +53,19 @@
                     </div>
                     <div class="form-group">
                         <label>Keterangan Absensi</label>
-                        <input wire:model="ket_absensi" type="text" class="form-control">
+                        {{-- <input wire:model="ket_absensi" type="text" class="form-control"> --}}
+                        <div class="form-check">
+                            <input wire:model="ket_absensi" class="form-check-input" type="radio" name="ket_absensi" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Sakit
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input wire:model="ket_absensi" class="form-check-input" type="radio" name="ket_absensi" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Izin
+                            </label>
+                          </div>
                         @error('ket_absensi') <small class="text-danger">{{$message}}</small>@enderror
                     </div>
                       <div class="form-group">
