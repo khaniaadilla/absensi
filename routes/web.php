@@ -21,19 +21,19 @@ use App\Http\Livewire\Absensi;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.app');
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/rombels', Rombel::class);
+// Route::get('/rombels', [App\Http\Controllers\RombelController::class, 'index'])->name('rombel');
 Route::get('/rayons', Rayon::class);
 Route::get('/senbuds', Senbud::class);
 Route::get('/upds', Upd::class);
 Route::get('/siswas', Siswa::class);
 Route::get('/absensis', Absensi::class);
-Route::get('/register', Register::class);
+// Route::get('/register', Register::class);
 
 
 
