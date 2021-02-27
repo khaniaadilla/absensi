@@ -9,5 +9,8 @@ class Rombel extends Model
 {
     protected $table = 'rombel';
     protected $guarded = [];
+    protected $fillable = [
+        'nama_rombel'
+    ];
     use HasFactory;
 }

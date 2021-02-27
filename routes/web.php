@@ -27,7 +27,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-// Route::get('/rombels', [App\Http\Controllers\RombelController::class, 'index'])->name('rombel');
+Route::get('/rombels', Rombel::class);
 Route::get('/rayons', Rayon::class);
 Route::get('/senbuds', Senbud::class);
 Route::get('/upds', Upd::class);

@@ -8,6 +8,8 @@ class RombelController extends Controller
 {
     public function index()
     {
-        return view('Livewire.rombel');
+        $rombels = Rombel::latest()->paginate(5);
+        return view('livewire.rombel',compact('rombels'))
+        ->with('i', (request()->input('page',1) - 1) * 5);
     }
 }
